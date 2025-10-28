@@ -6,7 +6,7 @@ public class Anagram {
     public static void main(String[] args) {
         
         String s1 = "aman";
-        String s2 = "nman";
+        String s2 = "aman";
 
         char[] ar1 = s1.toCharArray();
         char[] ar2 = s2.toCharArray();
@@ -17,7 +17,7 @@ public class Anagram {
         if(Arrays.equals(ar1, ar2)){
             System.out.println("ITs anagram");
         }
-        else{
+       else {
             System.out.println("Its not anagram");
         }
     }
